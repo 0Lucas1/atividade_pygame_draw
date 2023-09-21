@@ -11,7 +11,6 @@ cond_r,cond_q,cond_c = 0,0,0
 tela.fill((255,255,255))
 
 while True:
-    teclas = pg.key.get_pressed()
     for evento in pg.event.get():
         if evento.type == QUIT:
             pg.quit()
