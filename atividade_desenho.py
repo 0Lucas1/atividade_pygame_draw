@@ -20,7 +20,7 @@ while True:
             if cond_r:
                 pg.draw.rect(tela,(255,0,0),(x,y,30,100))
             elif cond_c:
-                pg.draw.circle(tela,(0,255,0),(x,y),10)
+                pg.draw.circle(tela,(0,255,0),(x,y),20)
             elif cond_q:
                 pg.draw.rect(tela,(0,0,255),(x,y,30,30))
             else:
